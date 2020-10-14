@@ -16,6 +16,7 @@ I have done this project via several steps:
 • Built a generic tool, which allows calculating the distance between the potential location and any competitor in 10 kilometers radius and shows the best potential location. 
 • Mapping the result to visualize options for better making decisions. 
 
+https://github.com/ALT-n/Brand-Location-Selection/issues/1#issue-721867328
 
 
 
