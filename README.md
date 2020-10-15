@@ -12,12 +12,23 @@ Secondly, in order to understand what location is appropriate for a brand, I wan
 I have done this project via several steps:
 
 • Created a web scraper using BeautifulSoup and Requests Libraries to grab data over 1,000 brands throughout North America. 
+
 • Received geolocation for each store from scraped data using GeoPy and cleaned dataset. 
+
 • Built a generic tool, which allows calculating the distance between the potential location and any competitor in 10 kilometers radius and shows the best potential location. 
+
 • Mapping the result to visualize options for better making decisions. 
 
-https://user-images.githubusercontent.com/69282278/96057209-69cdbf80-0e56-11eb-902a-72248714ebff.png 
+For instance, IKEA wants to open up a new store in Canada and considers 3 cities:  Sudbury (P3C5G3), North Bay (P1B4Y8), and Barrie(L4M3C1). Where is the best location?
 
+I used my code to map competitors in 10 kilometers radius in blue color and potential location of IKEA in red color in each three potential locations. I also printed the number of competitors and population in the area. And the result is the output with a map that anyone can review and understand.
+
+![pic1](https://user-images.githubusercontent.com/69282278/96058146-8bc84180-0e58-11eb-9373-83552a87fb06.jpg)
+![pic2](https://user-images.githubusercontent.com/69282278/96058179-997dc700-0e58-11eb-8d7f-f255e5af0671.jpg)
+
+Now I am able to make a decision. If we look at those 3 potential locations, more likely we pick up the location in Sudbury, where the population is the largest and number of competitors is smaller than in Barry. We would not consider North Bay at all, because there are plenty of furniture stores in the are for such a small number of people. 
+
+I believe it the powerful tool and it definitely gives insights to decision makers. 
 
 
 
